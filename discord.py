@@ -4,7 +4,7 @@ import requests
 import asyncio
 
 # Konfiguration
-DISCORD_BOT_TOKEN = 'MTMzMjI3OTc5MzkzMjA0MjI0MA.GUnllk.W7TtMg-Ot13ybRrKwsvmccjuxMOTJDwKpabSUE'
+DISCORD_BOT_TOKEN = 'MTMzMjI3OTc5MzkzMjA0MjI0MA.GfGOLE.KTssfElnLIogUtuTPoYnelyknHaSTr4Saq1VdY'
 DISCORD_CHANNEL_ID = 1332282278969348106  # Erstat med din Discord-kanal ID
 BATTLEMETRICS_API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImQ2ZjNkOTU0MzA1MTgyNmMiLCJpYXQiOjE3Mzc3MTE3MTEsIm5iZiI6MTczNzcxMTcxMSwiaXNzIjoiaHR0cHM6Ly93d3cuYmF0dGxlbWV0cmljcy5jb20iLCJzdWIiOiJ1cm46dXNlcjo2NjUxNzkifQ.K5r7Scg0ZoREaIZgRGT2ks1r5rXHhotMpoxgNyxG-tQ'
 CHECK_INTERVAL = 60  # Tjek hvert 60. sekund
