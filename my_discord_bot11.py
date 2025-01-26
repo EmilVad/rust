@@ -6,9 +6,9 @@ import asyncio
 from datetime import datetime, timedelta
 
 # Konfiguration
-DISCORD_BOT_TOKEN = os.environ("DISCORD_BOT_TOKEN")
+DISCORD_BOT_TOKEN = os.environ["DISCORD_BOT_TOKEN"]
 DISCORD_CHANNEL_ID = 1332282278969348106  # Erstat med din Discord-kanal ID
-BATTLEMETRICS_API_KEY = os.environ("BATTLEMETRICS_API_KEY")
+BATTLEMETRICS_API_KEY = os.environ["BATTLEMETRICS_API_KEY"]
 CHECK_INTERVAL = 60  # Tjek hvert 60. sekund
 
 # Server der overvåges
