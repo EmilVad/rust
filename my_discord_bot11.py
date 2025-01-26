@@ -1,13 +1,14 @@
 import discord
+import os
 from discord.ext import commands
 import aiohttp
 import asyncio
 from datetime import datetime, timedelta
 
 # Konfiguration
-DISCORD_BOT_TOKEN = 'MTMzMjI3OTc5MzkzMjA0MjI0MA.GG9Yql.o22iClg7ZKnDcdS4RSE5iCHdVj_QHT6RNTnfVo'
+DISCORD_BOT_TOKEN = os.environ("DISCORD_BOT_TOKEN")
 DISCORD_CHANNEL_ID = 1332282278969348106  # Erstat med din Discord-kanal ID
-BATTLEMETRICS_API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6Ijk1NWRiNTg4NmMyYzgwOTkiLCJpYXQiOjE3Mzc5MjI5NjIsIm5iZiI6MTczNzkyMjk2MiwiaXNzIjoiaHR0cHM6Ly93d3cuYmF0dGxlbWV0cmljcy5jb20iLCJzdWIiOiJ1cm46dXNlcjo2NjUxNzkifQ.cKLLsRemkE6aRrC9novsvRyJ7OWA_EVA4XgREtcmtLE'
+BATTLEMETRICS_API_KEY = os.environ("BATTLEMETRICS_API_KEY")
 CHECK_INTERVAL = 60  # Tjek hvert 60. sekund
 
 # Server der overvåges
