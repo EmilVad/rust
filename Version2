@@ -1,4 +1,3 @@
-  GNU nano 7.2                                                                                                                                                                                            my_discord_bot11.py
 import discord
 from discord.ext import commands
 import aiohttp
